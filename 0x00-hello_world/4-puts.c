@@ -5,11 +5,12 @@
 #include <stdio.h>
 
 /**
- * The following C program prints "Programming is like building a multilingual
- *                puzzle
+ * outputs "Programming is like building a multilingua puzzle
  *
- * and returns (0)
+ *
+ * returns (0)
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
