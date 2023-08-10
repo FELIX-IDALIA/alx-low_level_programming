@@ -5,10 +5,11 @@
 #include <stdio.h>
 
 /**
- * outputs "Programming is like building a multilingua puzzle
+ * main -starting point
  *
+ * prints -"programming is like building a multilingual puzzle
  *
- * returns (0)
+ * Return: returns (0) on success, non-zero incase of an error
  */
 
 int main(void)
