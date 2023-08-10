@@ -1,16 +1,17 @@
 /*
  *  6-size.c file
- *  
+ *
  *  sizeof
  */
 
 #include <stdio.h>
 
 /**
- * A program tha:
- *  prints the size of various types on the computer it is compiled and run on.
+ * main -starting point of the program
  *
- * returns (0)
+ *  prints -size of various types on the computer it is compiled and run on.
+ *
+ * Return: 0 on success, non-zero incase of an error
  */
 int main(void)
 {
