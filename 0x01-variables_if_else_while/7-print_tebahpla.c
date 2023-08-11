@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - starting point of a program
- * Return: 0 returned when success
+ * main - starting point of the program
+ * Return: success (0)
  */
 int main(void)
 {
-	char alphabet = 'y';
+	char alphabet = 'z';
 
-	while (alphabet >= 'x')
+	while (alphabet >= 'a')
 	{
 		putchar(alphabet);
 		alphabet--;
