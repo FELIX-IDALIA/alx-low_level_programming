@@ -2,8 +2,8 @@
 
 /**
  * main - outputs the numbers from 0-100 followed by a new line
- * 
- * 
+ *
+ *
  * Return: 0 is returned when success
  */
 int main(void)
