@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - func, ouputs the no. of arguments passed into it
+ * main - func, outputs all arguments
  * @argc: the no. of command line arguments
- * @argv: array containg programs command line arguments
+ * @argv: array containing programs command line arguments
  *
- * Return: returns 0 on success
+ * Return: return 0 on success
  */
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	int i = 0;
 
+	for (; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 	return (0);
 }
