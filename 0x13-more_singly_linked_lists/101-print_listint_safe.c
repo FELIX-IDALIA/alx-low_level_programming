@@ -7,6 +7,7 @@
  *
  * Return: returns the no. of nodes in the list.
  */
+
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t number = 0;
