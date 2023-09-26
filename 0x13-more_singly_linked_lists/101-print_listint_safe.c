@@ -3,7 +3,7 @@
 /**
  * print_listint_safe - func, prints a listint_t linked list.
  * The function can print lists with loop
- * @head: the list of the type listint_t to be printed
+ * @head: the head
  *
  * Return: returns the no. of nodes in the list.
  */
